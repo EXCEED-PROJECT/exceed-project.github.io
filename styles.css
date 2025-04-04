@@ -156,12 +156,6 @@ nav {
     padding: 1.5rem 2rem;
 }
 
-.logo h1 {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: 0;
-}
-
 .tagline {
     font-size: 0.8rem;
     color: var(--gray-color);
@@ -751,6 +745,11 @@ footer {
 
 .legal-links a:hover {
     color: white;
+}
+/* Regole per il logo */
+.logo img {
+    height: 75px; /* oppure la dimensione che preferisci */
+    width: auto;
 }
 
 /* Responsive Design */
